@@ -1,5 +1,6 @@
 # ANDROID MINECRAFT SERVER
-> To do this you will need Termux. Open the app and follow the steps below.
+> To do this you will need Termux. You can get it on this repository (.apk file) or [here](https://f-droid.org/es/packages/com.termux/).
+> Open the app and follow the steps below.
 ## 1. Setting up Ubuntu
 - Install Ubuntu by entering this script:
 ```
