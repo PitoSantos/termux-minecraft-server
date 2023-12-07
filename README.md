@@ -1,6 +1,6 @@
 # ANDROID MINECRAFT SERVER
 > Termux's official wiki: https://termux.dev/en/
-> To do this you will need Termux. You can get it on this repository (.apk file) or [here](https://f-droid.org/es/packages/com.termux/).
+> To do this you will need Termux. You can get it [here](https://f-droid.org/es/packages/com.termux/).
 > Open the app and follow the steps below.
 ## 1. Setting up Ubuntu
 - Install Ubuntu by entering this script:
@@ -78,7 +78,7 @@ java -Xmx1G -Xms1G -jar server.jar nogui
 ```
 ./playit
 ```
-# TERMUX COMMANDS
+# TERMUX USEFUL COMMANDS
 - Create folder/directory: `mkdir example`
 - Access directory: `cd example` *-- cd itself will take you to the main directory*
 - Remove/delete: `rm file or rm -r directory`
