@@ -33,15 +33,27 @@ wget -O server.jar https://api.papermc.io/v2/projects/paper/versions/1.20.1/buil
 chmod +x server.jar
 ```
 ## 4. Setting up the server
-- Use this to run the server:
+- Create the startup command file:
+```
+touch main.sh
+```
+- Edit the file:
+```
+nano main.sh
+```
+- Type this in the file:
 ```
 java -Xmx1G -Xms1G -jar server.jar nogui
+```
+- Run the server:
+```
+bash main.sh
 ```
 - Use the following commands to edit the files:
 ```
 nano eula.txt
 ```
-- To access the files from the file manager:
+- To access the files from the file manager: [OPTIONAL]
 ```
 am start -a android.intent.action.VIEW -d "content://com.android.externalstorage.documents/root/primary"
 ```
@@ -69,7 +81,7 @@ chmod +x playit
 ./start-ubuntu.sh
 ```
 ```
-java -Xmx1G -Xms1G -jar server.jar nogui
+bash main.sh
 ```
 - To start Playit.GG use the following in order: *(Use this in a new session)*
 ```
